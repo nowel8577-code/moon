@@ -30,10 +30,12 @@ Current lesson folder:
 
 ## Firebase Notes
 
-- No Firebase project is configured in this workspace yet.
-- If Firebase is added later, use `npx.cmd` for Firebase CLI commands on Windows.
+- Firebase project ID: `my-teaching-tools`.
+- No Firebase products are configured yet.
+- Use `npx.cmd` for Firebase CLI commands on Windows.
 
 ## Obsidian Notes
 
-- No Obsidian vault or note path has been provided yet.
-- Add note linkage only after the vault and note path are known.
+- Obsidian vault: `G:\我的雲端硬碟\2ndbrain\教學筆記`
+- Project note: `國文教學/劉姥姥逛大觀園.md`
+- Use this note for session summaries and lesson planning links when requested.

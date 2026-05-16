@@ -17,4 +17,8 @@
 
 - Codex 工作規則記錄在 `AGENTS.md`。
 - Git 忽略規則記錄在 `.gitignore`。
-- 尚未設定 Firebase、GitHub remote 或 Obsidian 筆記連結。
+- GitHub remote：`https://github.com/nowel8577-code/moon.git`
+- Firebase project ID：`my-teaching-tools`
+- Firebase 產品尚未設定。
+- Obsidian vault：`G:\我的雲端硬碟\2ndbrain\教學筆記`
+- Obsidian note：`國文教學/劉姥姥逛大觀園.md`
