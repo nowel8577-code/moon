@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>劉姥姥逛大觀園｜闖關討論遊戲</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app">
+      <section class="stage" aria-label="遊戲主畫面">
+        <div class="scene" aria-hidden="true">
+          <div class="gate">
+            <div class="roof"></div>
+            <div class="sign">大觀園</div>
+            <div class="doors">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="pond"></div>
+          <div class="path"></div>
+        </div>
+
+        <div class="game-panel">
+          <header class="topbar">
+            <div>
+              <p class="eyebrow">劉姥姥逛大觀園</p>
+              <h1>大觀園闖關</h1>
+            </div>
+            <div class="round-badge">
+              <span id="roundNow">1</span>
+              <small>/ 10</small>
+            </div>
+          </header>
+
+          <div class="question-card">
+            <div class="meta-row">
+              <span id="category">理解細節</span>
+              <span id="mode">自學 2 分鐘｜小組討論｜全班表達</span>
+            </div>
+            <p id="questionText" class="question"></p>
+            <div id="answerBox" class="answer-box" hidden>
+              <strong>參考方向</strong>
+              <p id="answerText"></p>
+            </div>
+          </div>
+
+          <div class="controls" aria-label="遊戲控制">
+            <button id="prevBtn" type="button">上一題</button>
+            <button id="hintBtn" type="button">提示</button>
+            <button id="answerBtn" type="button" class="primary">揭示答案</button>
+            <button id="nextBtn" type="button">下一題</button>
+          </div>
+
+          <div id="hintBox" class="hint-box" hidden></div>
+        </div>
+      </section>
+
+      <aside class="sidebar" aria-label="隊伍與計時">
+        <section class="timer-block">
+          <div class="timer" id="timer">02:00</div>
+          <div class="timer-actions">
+            <button id="startTimer" type="button">開始</button>
+            <button id="pauseTimer" type="button">暫停</button>
+            <button id="resetTimer" type="button">重設</button>
+          </div>
+        </section>
+
+        <section class="teams">
+          <h2>小組分數</h2>
+          <div id="teamList" class="team-list"></div>
+        </section>
+
+        <section class="progress-block">
+          <h2>闖關進度</h2>
+          <div id="progressGrid" class="progress-grid"></div>
+        </section>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
