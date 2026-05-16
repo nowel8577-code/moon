@@ -1,0 +1,57 @@
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+service-account*.json
+
+# Agent and editor state
+.codex/
+.agents/state/
+.vscode/
+.idea/
+
+# Dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and export output
+dist/
+build/
+out/
+tmp/
+temp/
+*.log
+
+# Large classroom source artifacts
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.pdf
+*.xls
+*.xlsx
+
+# Large classroom media
+*.wmv
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Office temporary files
+~$*
